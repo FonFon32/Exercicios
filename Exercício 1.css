@@ -11,7 +11,7 @@ header {
 }
 
 .animated-logo:hover {
-    animation: spin 3s ease-in-out;
+    animation: spin .5s ease-in-out;
 }
 
 @keyframes spin {
