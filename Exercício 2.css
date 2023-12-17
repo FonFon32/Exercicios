@@ -9,6 +9,11 @@ h1 {
     padding-left: 10px;
 }
 
+p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .header-gradient {
     background: linear-gradient(90deg, rgb(57, 176, 255) 12%, rgb(10, 204, 113) 64%);
     background-size: 96% 75%;
