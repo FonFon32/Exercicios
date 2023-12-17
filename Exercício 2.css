@@ -31,6 +31,11 @@ ul {
     text-decoration: none;
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
+    transition: color 0.3s ease-in-out;
+}
+
+.active:hover{
+    color: rgb(33, 204, 10);
 }
 
 .Nome {
@@ -39,8 +44,28 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 25px;
+    transition: color 0.3s ease-in-out;
+}
+
+.Nome:hover{
+    color: rgba(101, 242, 252, 0.757);
 }
 
 .main-content {
     font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-rows: 150px 150px 150px 150px;
+    grid-template-columns: 300px 300px 300px 300px;
+}
+
+.projects {
+}
+
+.projectweb-design {
+}
+
+.sidebar {
+}
+
+.social-links {
 }
